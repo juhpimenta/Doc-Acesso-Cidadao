@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="/IMG/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/stilo.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/70ee761d07.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/stilo.css">
+
+
+
+    <title>CADASTRO</title>
+</head>
+
+<body >
+
+
+
+
+   
+      <main role="main" class=" pb-5 bg-white">
+    <div class="content-wrapper col-12 col-sm-12 col-md-10 col-lg-8	col-xl-8 mx-auto p-0 pt-5">
+
+      
+            <div class="container text-black-10 bg-purple shadow bg-light rounded mx-auto p-0 pt-5 col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+               
+
+
+                <!-- formulario de cadastro -->
+                <div class="form-row justify-content-center">
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-10 col-xl-10  mx-auto">
+                     
+
+                            <div class="form-row  justify-content-center">
+                                <div class="form-group col-11 col-sm-11 col-md-6 col-lg-6 col-xl-6">
+
+                                    <label for="inputNomeMae">Nome da Mãe</label>
+                                    <a tabindex="0" class="input" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" title="Importante" data-content="Informe o nome completo da sua mãe. Caso não saiba clique na opção abaixo.">
+                                        <input type="text" class="form-control " id="inputNomeMae" placeholder="Digite o nome da sua mãe" size=60 maxlength=60> </a>
+
+                                    <div class="form-group">
+                                        <div class="form-check">
+                                            <small id="passwordHelpInline" class="text-muted">
+
+                                                <label class="forn-check-label">
+                                                    <input class="form-check-input" type="checkbox">Não sei o nome da minha mãe</label>
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group col-11 col-sm-11 col-md-6 col-lg-6 col-xl-6 ">
+                                    <label for="inputNomeMae">Nome da Pai</label>
+                                    <a tabindex="0" class="input" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" title="Importante" data-content="Informe o nome completo do seu pai. Caso não saiba clique na opção abaixo.">
+                                        <input type="text" class="form-control " id="inputNomePai" placeholder="Digite o nome do seu pai" size=60 maxlength=60> </a>
+
+
+                                    <div class="form-check">
+                                        <small id="passwordHelpInline" class="text-muted">
+
+
+                                            <label class="forn-check-label">
+
+                                                <input class="form-check-input" type="checkbox">Não sei o nome do meu pai</label>
+                                        </small>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                      
+                    </div>
+                </div>
+
+                
+            </div>
+
+            <!-- Modal -->
+            <div class="col-10 col-sm-10 col-md-12 col-lg-12 col-xl-12 mx-auto">
+                <div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header bg-info">
+                                <h5 class="modal-title text-white" id="TituloModalCentralizado">Confirme seus dados</h5>
+                                <button type="button" class="close text-white" data-dismiss="modal" aria-label="Fechar">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body" id="resumo-dados">
+
+                            </div>
+                            <div class="modal-footer justify-content-center">
+                                <button type="button" class="btn btn-outline-info" data-dismiss="modal">Editar</button>
+                                <a href="CADASTRO-3-validar.html"> <button type="button" class="btn btn-outline-success">Salvar</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="col-10 col-sm-10 col-md-12 col-lg-12 col-xl-12 mx-auto">
+                <div class="modal fade" id="modal-cancelar" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header bg-danger">
+                                <h5 class="modal-title text-white" id="TituloModalCentralizado">Cancelar cadastro</h5>
+                                <button type="button" class="close text-white" data-dismiss="modal" aria-label="Fechar">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Deseja mesmo cancelar o cadastro? <br> Cancelando o cadastro todo o processo será perdido! </p>
+
+                            </div>
+                            <div class="modal-footer justify-content-center">
+                                <button type="button" class="btn btn-outline-success" data-dismiss="modal">Não</button>
+                                <a href="index.html"> <button type="button" class="btn btn-outline-danger">Sim</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+        </main>
+
+
+    <!-- Footer   -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/JS/validacao.js"></script>
+
+    <script>
+        $(function() {
+            $('[data-toggle="popover"]').popover('show')
+
+        });
+      
+        
+        $(document).ready(function() {
+            exibe_cpf();
+        });
+
+
+
+        function armazenaUsuario() {
+            var usuario_jason = localStorage.getItem("Dados");
+            var usuario = JSON.parse(usuario_jason);
+
+            usuario.NOME_COMPLE = document.getElementById('inputNome').value + " " + document.getElementById('inputSobrenome').value;
+            usuario.MAE = document.getElementById('inputNomeMae').value;
+            usuario.PAI = document.getElementById('inputNomePai').value;
+            usuario.EMAIL = document.getElementById('inputNomeEmailC').value;
+
+            var Usuario_jason = JSON.stringify(usuario);
+            localStorage.setItem("Dados", Usuario_jason);
+
+
+            exibe_dados();
+
+        }
+
+        function exibe_dados() {
+
+            var usuario_jason = localStorage.getItem("Dados");
+            var Usuario = JSON.parse(usuario_jason);
+
+            $('#resumo-dados').html("CPF: " + Usuario.CPF + "<br>" + "Nome: " + Usuario.NOME_COMPLE + "<br>" + "Mae: " + Usuario.MAE + "<br>" + "Pai: " + Usuario.PAI + "<br>" + "E-mail: " + Usuario.EMAIL);
+            console.log(Usuario.NOME_COMPLE);
+
+        }
+
+        function exibe_cpf() {
+
+            var usuario_jason = localStorage.getItem("Dados");
+            var Usuario = JSON.parse(usuario_jason);
+
+            $('#cpf-desabilitado').value = Usuario.CPF;
+            console.log(Usuario.CPF);
+
+        }
+
+    </script>
+</body>
+
+</html>

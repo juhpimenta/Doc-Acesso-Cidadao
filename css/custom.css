@@ -1,0 +1,152 @@
+html,body{
+    
+    height: 100%;
+}
+
+.navbar-brand{
+    
+    font-family: monospace;
+    font-size: 20px;
+}
+.wrapper {
+    display: flex;
+    max-width: 18%;
+    align-items: stretch;
+    min-height: 100%;
+
+}
+
+#sidebar {
+min-width: 100%;
+    min-height: 100%;
+    border-right: 1px;
+}
+
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+
+.nav-link:hover{
+    text-decoration: underline; 
+    
+}
+
+
+
+#sidebar ul.components {
+    padding-top: 20px;
+
+}
+
+#sidebar ul p {
+    padding-bottom: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    font-weight: 500;
+    color: dimgray;
+}
+
+
+ul ul a {
+    font-size: 0.9em !important;
+    font-weight: normal !important;
+    
+   
+
+}
+
+ul{
+    
+list-style-type: none;
+}
+
+.regras{
+    list-style-type:disc;
+}
+
+.content{
+    min-width: 74em;
+}
+
+.exemplo{
+    border: 2px solid;
+    border-color: #f8f9fa;
+    height: em;
+    width: 30em;
+
+}
+
+.exemplo1{
+    border: 2px solid;
+    border-color: #f8f9fa;
+    width: 30em;
+
+}
+
+.codigo{
+    background-color: #f8f9fa;
+     border: 2px solid;
+    border-color:#f8f9fa;
+    height: 7em;
+    width: 30em;
+
+    
+}
+
+.codigo1{
+    background-color: #f8f9fa;
+     border: 2px solid;
+    border-color:#f8f9fa;
+    
+    width: 30em;
+    
+}
+
+.sistemas{
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 3;
+   
+    
+    
+}
+
+.grupos{
+    font-size: 17px;
+   line-height: 3;
+    font-weight:500;
+}
+
+.btn-outline-azul-es {
+    border: solid 1.2px;
+    border-color:  #0f4a7f;
+    color: #0f4a7f;
+    font-weight: 400;
+    font-kerning: normal;
+}
+.btn-outline-azul-es:hover{
+    background: #0f4a7f;
+    color: white;
+}
+
+.btn-solid-azul-es {
+     background-color:  #0f4a7f;
+    color: white;
+    font-weight: 400;
+    font-kerning: normal;
+    
+}
+.btn-solid-azul-es:hover {
+     background-color:  #cc4c92;
+    color: white;
+    font-weight: 400;
+    font-kerning: normal;
+    
+}
+

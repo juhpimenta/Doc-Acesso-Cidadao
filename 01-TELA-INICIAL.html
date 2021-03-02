@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="/IMG/favicon.ico">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/70ee761d07.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/stilo.css">
+
+
+
+    <title>Acesso Cidadão</title>
+</head>
+
+<style>
+
+</style>
+
+<body class="bg-azul-es">
+
+
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-sm-0 m-sm-0  bg-azul-es">
+        <div class="navbar col-12 col-sm-12 col-md-10 col-lg-8	col-xl-8 mx-auto text-center p-0">
+
+            <a class="navbar-brand pl-0" href="index.html"><i style="color: white" class="fas fa-users"></i> Acesso Cidadão</a>
+            <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                <ul class="nav navbar-nav ml-auto pr-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"><i class="fas fa-info-circle"></i> Sobre<span class="sr-only">(página atual)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"><i class="fa fa-th"></i> Serviços<span class="sr-only">(página atual)</span></a>
+                    </li>
+                     <li class="nav-item active">
+                        <a class="nav-link" href="publico_telas.html"><i class="fas fa-sign-out-alt"></i> Sair<span class="sr-only">(página atual)</span></a>
+                    </li>
+                    <!--   <li class="nav-item active">
+                        <a class="nav-link" href="#"><i class="fa fa-sign-in"></i> Entrar<span class="sr-only">(página atual)</span></a>
+                    </li>-->
+
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="fundo " style="background-image: url(img/background.jpg); background-attachment: fixed">
+        <!-- https://developers.es.gov.br/themes/background.jpg -->
+        <main role="main" class=" pb-5 ">
+            <div class="content-wrapper  pb-5 pt-5  m-0"></div>
+            
+            <div class="content-wrapper col-11 col-sm-11 col-md-10 col-lg-8	col-xl-8 mx-auto p-0 pt-6">
+
+
+                <div class="container text-black-10 bg-purple shadow rounded  mx-auto p-0 pt-5 col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-5 pb-0" style="background-color: rgba(255, 255, 255, 0.79);">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mx-auto">
+
+                            <div class="col-12 text-center ">
+                                <div class="col-6 col-sm-6 col-md-5 col-lg-5 col-xl-5 mx-auto p-0">
+                                    <img src="https://cdn.es.gov.br/images/logo/governo/brasao/center/Brasao_Governo_1024.png" class="card-img-top  p-2" alt="...">
+                                </div> <br>
+                                <h6 class="mb-0 text-azul-es lh-100 text-center col-12 col-sm-12 mt-1">Bem vindo ao Acesso Cidadão!</h6> 
+                                <p class="text-center col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-auto pt-1 m-2">Cadastro único para utilizar os serviços ou participar de programas do estado do Espírito Santo.</p>
+
+
+                            </div>
+                        </div> 
+
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mr-auto mt-auto">
+
+                          
+
+                            <div class="row justify-content-center">
+                                <div class="form-group col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10 text-center mx-auto">
+                                    <a tabindex="0" class="input" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" title="Ajuda" data-content="O CPF é um documento pessoal e intransferível. Não utilize o CPF de outra pessoa. Além do cadastro ser invalidado, isso é crime.">
+                                        <input type="text" class="form-control bg-transparent border border-secondary" id="inputCPF" placeholder="Digite seu CPF" maxlength="14" onkeypress="formatarCPF(this)"></a>
+                                </div>
+
+                            </div>
+
+                            <div class="form-group col-12 col-sm-10 col-md-10 col-lg-12 col-xl-10 text-center mx-auto pl-0 m-1 p-1">
+                                <button type="button" class="btn  btn-block btn-outline-azul-es" onclick="buscaCPF()">Continuar</button>
+
+                            </div>
+                            <div class="form-row  pb-3 col-11 col-sm-11 col-md-10 col-lg-10 col-xl-10 mx-auto pl-0 mb-0 text-center">
+                                <label>Não possui uma conta no Acesso Cidadão? <a class="text-info" href="CADASTRO-1-informaCPF.html">Cadastre-se</a> </label> <br>
+                            </div>
+
+
+                        </div>
+
+
+                    </div> <br><br>
+                </div>
+
+
+
+            </div>
+            <div class="content-wrapper  pb-5 pt-5  m-0"></div>
+            <div class="content-wrapper  pb-5  m-0"></div>
+
+        </main>
+
+
+        <!-- rodapé -->
+        <div class="footer-menu footer-expand-lg shadow p-3  " style="background-color: rgba(25, 51, 88, 0.65);">
+            <div class="row">
+                <div class="content-wrapper col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 mx-auto p-0 pt-5 pb-5 mx-auto">
+
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-auto ">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4	col-xl-4 mx-auto ">
+                                <h5 class="text-white mt-2">Informações</h5>
+                                <a href="INTERNO-sobre.html" class="text-white">Sobre o Acesso Cidadão</a> <br>
+                                <a href="INTERNO-servicos.html" class="text-white">Serviços Oferecidos</a><br>
+                                <a href="#" class="text-white">Termos de Serviço</a> <br>
+                                <a href="#" class="text-white">Política de Privacidade</a>
+                            </div>
+
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4	col-xl-4 mx-auto">
+                                <h5 class="text-white mt-2">Duvidas</h5>
+                                <a href="RODAPE-perguntas-frequentes.html" class="text-white">Perguntas frequentes</a> <br>
+                                <a href="#" class="text-white">Criação Conta</a><br>
+                                <a href="#" class="text-white">Recuperação de senha</a><br>
+                                <a href="#" class="text-white">Recuperação de conta</a>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4	col-xl-4 mx-auto">
+                                <h5 class="text-white mt-2">Contato</h5>
+                                <a href="RODAPE-fale-conosco.html" class="text-white">Fale conosco</a> <br><br>
+                                <h5 class="text-white">Redes Sociais</h5>
+                                <a href="#" class="text-white"><i class="fab fa-facebook-square"></i></a>
+                                <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="text-white"><i class="fab fa-twitter-square"></i></a>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- Footer -->
+    <footer class="font-small rodape-ajusta">
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 bg-azul-es text-white pt-3 mx-auto">
+            <div class="container">
+                <div class="col-xs-12 col-sm-12 col-md-10 col-md-10 col-lg-10 mx-auto">
+                    <div class="row ">
+
+                        <div class="col-xs-12 col-sm-12 col-md-10 col-md-10 col-lg-10 pt-3 mx-auto">
+                            <div class="footer-info text-black">
+                                <span class="footer-text">© 2015 <span class="year">- 2019</span> |</span><span class="footer-text footer-text-name"> Acesso Cidadão</span>
+                                <span> | </span> Desenvolvido pelo <a class="text-white" href="http://www.prodest.es.gov.br/" target="_blank" title="Acessar o portal do Prodest">PRODEST</a><span> | </span>
+                                <br>
+                                <span class="footer-text"><a class="text-white" target="_blank" title="Acessar o portal do Governo" href="http://www.es.gov.br/">Governo do Estado do Espírito Santo</a></span>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 mx-auto">
+                            <div class="logo-governo text-right">
+                                <img width="170" src="https://cdn.es.gov.br/images/logo/governo/brasao/right-white/Brasao_Governo_240.png" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer   -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/JS/validacao.js"></script>
+    <script>
+        function formatarCPF(campo) {
+            var tam = campo.value.length;
+            if (tam == 3) {
+                campo.value = campo.value + ".";
+            } else if (tam == 7) {
+                campo.value = campo.value + ".";
+            } else if (tam == 11) {
+                campo.value = campo.value + "-";
+            }
+        }
+        $(function() {
+            $('[data-toggle="popover"]').popover()
+        });
+
+        function buscaCPF() {
+
+            var CPF = document.getElementById('inputCPF').value;
+
+            var dados = {
+                'CPF': CPF,
+            };
+
+            var dados_jason = JSON.stringify(dados);
+            localStorage.setItem("Dados", dados_jason);
+
+            //console.log(CPF);
+
+            document.location.href = 'login.html';
+
+        }
+    </script>
+
+</body>
+
+</html>

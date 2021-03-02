@@ -1,0 +1,18 @@
+<div class="row justify-content-center">
+    <div class="form-group col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center mx-auto">
+        <a tabindex="0" class="input" id="elemento" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" title="Ajuda" data-content="O CPF é um documento pessoal e intransferível. Não utilize o CPF de outra pessoa. Além do cadastro ser invalidado, isso é crime.">
+            <input type="text" class="form-control bg-transparent border border-secondary" id="inputCPF" placeholder="Digite seu CPF" maxlength="14">
+        </a>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+
+<script>
+    $(function() {
+        $('[data-toggle="popover"]').popover()
+
+    });
+
+</script>

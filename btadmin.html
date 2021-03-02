@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="/IMG/favicon.ico">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- CSS modificado -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/70ee761d07.js"></script>
+
+    <title>Manual Prodest</title>
+</head>
+
+<body>
+
+    <!---------------------- Barra de Navegação Superior Fixa ---------------------------->
+
+    <nav class="navbar fixed-top navbar-dark bg-dark shadow">
+        <a class="navbar-brand" href="#">INTERFACES <sup>Prodest</sup></a>
+
+        <ul class="nav">
+
+            <li class="nav-item text-nowrap">
+                <a class="nav-link text-white" href="#">Início</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Documentação</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Telas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary" href="#">Sair</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-------------------------------- Barra de navegação Lateral------------------------------->
+
+    <div class="h-00 wrapper bg-dark shadow">
+
+        <nav id="sidebar">
+
+            <ul class="list-unstyled components mt-2">
+
+                <!--------------------------------------------------->
+                <form class="bd-search align-items-center ml-5 mr-5  mt-5 mb-4">
+                    <div class="input-group">
+                        <input class="form-control" type="search" placeholder="Pesquisar" aria-label="Search" style="border-right: none;">
+                        <div class="input-group-append">
+                            <div class="input-group-text" style="background-color: #FFF"><i class="fas fa-search"></i></div>
+                        </div>
+                    </div>
+                </form>
+                <hr>
+
+
+                <!-------------------------------------------------MENU PRODEST ADMINISTRATIVO-------------------------------------------->
+
+
+
+
+                <div class="accordion" id="accordion1">
+
+                    <div class="accordion-group">
+                        <h4 class="text-white ml-5 mb-4 mt-4  font-weight-bold text-center mr-5">Documentação</h4>
+
+
+                        <div class="accordion-heading">
+
+                            <a class="accordion-toggle ml-3 text-white sistemas" data-toggle="collapse" data-parent="#accordion1" aria-expanded="false" href="#collapseTwo">
+                                Administrativo
+                            </a>
+                        </div>
+                        <div id="collapseTwo" class="accordion-body collapse">
+                            <div class="accordion-inner">
+
+                                <!-- Here we insert another nested accordion -->
+
+                                <div class="accordion" id="accordion2">
+                                    <div class="accordion-group">
+                                        <div class="accordion-heading">
+
+                                            <a class="accordion-toggle ml-5 text-light grupos" data-toggle="collapse" data-parent="#accordion2" aria-expanded="false" href="#collapseInnerOne">Layout</a>
+                                        </div>
+
+                                        <div id="collapseInnerOne" class="accordion-body collapse in">
+                                            <div class="accordion-inner ml">
+
+                                                <ul class="accordion-inner ml-5" id="collapseInnerOne">
+
+                                                    <li>
+                                                        <a href="#" class="text-light">Alinhamento</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="#" class="text-light">Cores</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="#" class="text-light">Espaçadores</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="#" class="text-light">Margens</a>
+                                                    </li>
+
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-group">
+                                        <div class="accordion-heading">
+
+                                            <a class="accordion-toggle ml-5 text-light grupos" data-toggle="collapse" aria-expanded="false" data-parent="#accordion2" href="#collapseInner2">Componentes</a>
+                                        </div>
+                                        <div id="collapseInner2" class="accordion-body collapse in">
+                                            <div class="accordion-inner">
+
+                                                <ul class="accordion-inner ml-5" id="collapseInner2">
+
+                                                    <li>
+                                                        <a href="btadmin.html" class="text-light">Botões</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-light">Ícones</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="#" class="text-light">Tabelas</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="txtadmin.html" class="text-light">Textos</a>
+                                                    </li>
+                                                    
+                                                    <li>
+                                                        <a href="#" class="text-light">Rodapé</a>
+                                                    </li>
+
+
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-group">
+                                        <div class="accordion-heading">
+
+                                            <a class="accordion-toggle ml-5 text-light grupos" data-toggle="collapse" aria-expanded="false" data-parent="#accordion2" href="#collapseInner3">Componentes combinados</a>
+                                        </div>
+                                        <div id="collapseInner3" class="accordion-body collapse in">
+                                            <div class="accordion-inner">
+
+                                                <ul class="accordion-inner ml-5" id="collapseInner3">
+
+                                                    <li>
+                                                        <a href="#" class="text-light">Barras de navegação</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-light">Campo de busca</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-light">Cards</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-light">Formulários</a>
+                                                    </li>
+
+
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--------------------------------------------------------------MENU PRODEST PUBLICO---------------------------------------------------------------->
+
+                <div class="accordion" id="accordion1">
+
+                    <div class="accordion-group">
+
+                        <div class="accordion-heading">
+
+                            <a class="accordion-toggle ml-3 text-white sistemas" data-toggle="collapse" data-parent="#accordion1" aria-expanded="false" href="#collapse7">
+                                Público
+                            </a>
+                        </div>
+                        <div id="collapse7" class="accordion-body collapse">
+                            <div class="accordion-inner">
+
+                                <!-- Here we insert another nested accordion -->
+
+                                <div class="accordion" id="accordion2">
+                                    <div class="accordion-group">
+                                        <div class="accordion-heading">
+
+                                            <a class="accordion-toggle ml-5 text-light grupos" data-toggle="collapse" data-parent="#accordion2" aria-expanded="false" href="#collapseInner4">Layout</a>
+                                        </div>
+
+                                        <div id="collapseInner4" class="accordion-body collapse in">
+                                            <div class="accordion-inner ml-5">
+
+                                                <ul class="accordion-inner " id="collapseInner4">
+
+                                                    <li>
+                                                        <a href="#" class="text-light">Alinhamento</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="#" class="text-light">Cores</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="#" class="text-light">Espaçadores</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="#" class="text-light">Margens</a>
+                                                    </li>
+
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-group">
+                                        <div class="accordion-heading">
+
+                                            <a class="accordion-toggle ml-5 text-light grupos" data-toggle="collapse" aria-expanded="false" data-parent="#accordion2" href="#collapseInner5">Componentes</a>
+                                        </div>
+                                        <div id="collapseInner5" class="accordion-body collapse in">
+                                            <div class="accordion-inner ml-5">
+
+                                                <ul class="accordion-inner " id="collapseInner5">
+
+                                                    <li>
+                                                        <a href="btpub.html" class="text-light">Botões</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-light">Ícones</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="#" class="text-light">Tabelas</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="txtpub.html" class="text-light">Textos</a>
+                                                    </li>
+                                                   
+                                                    <li>
+                                                        <a href="#" class="text-light">Rodapé</a>
+                                                    </li>
+
+
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-group">
+                                        <div class="accordion-heading">
+
+                                            <a class="accordion-toggle ml-5 text-light grupos" data-toggle="collapse" aria-expanded="false" data-parent="#accordion2" href="#collapseInner6">Componentes combinados</a>
+                                        </div>
+                                        <div id="collapseInner6" class="accordion-body collapse in">
+                                            <div class="accordion-inner ml-5">
+
+                                                <ul class="accordion-inner " id="collapseInner6">
+
+                                                    <li>
+                                                        <a href="#" class="text-light">Barras de navegação</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-light">Campo de busca</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-light">Cards</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-light">Formulários</a>
+                                                    </li>
+
+
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Inner accordion ends here -->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+
+        </nav>
+
+
+
+        <!-----------------------------------CONTEÚDO-------------------------------------------->
+
+        <!-- Page Content -->
+
+        <div class="container content mt-5 ml-4 mr-5 pr-5">
+             <ul class="list-inline mt-4 mb-0">
+                <li class="list-inline-item text-secondary">Você está em:</li>
+                <li class="list-inline-item text-secondary">Documentação</li>
+                <li class="list-inline-item text-secondary font-weight-bold">Administrativo</li>
+                <li class="list-inline-item text-secondary font-weight-bold">Botões</li>
+            </ul>
+            <hr class="mt-0">
+          <h1 class="mt-5">Botões</h1>
+      
+	<p class="mt-3">Botões auxiliam o fluxo de navegação do usuário, permitindo avançar entre as páginas e executar ações. São um dos elementos mais importantes na experiência, pois viabilizam o diálogo do usuário com o sistema. Podem ser usados individualmente, em formulários, componentes, grupos, etc.</p>
+	
+	<h3 class="font-weight-normal mt-5">Botões com ícones e textos</h3>
+	<p class="mt-4">Ícones são uma ótima ferramenta para facilitar a experiência do usuário. Botões com ícones e textos devem seguir as seguintes regras:</p>
+			<ul class="regras pl-3">
+			<li>Ícones devem ser sempre posicionados à esquerda, antes do texto ou título do botão.</li>
+			<li>Em botões com tamanho inferior a até X (tamanho), não é recomendado o uso de ícones.</li>
+			<li>Em botões de até X (tamanho), o ícone deve ter X, com espaçamento de X X X X.</li>
+			<li>Em botões de X (tamanho), o ícone deve ter X, com espaçamento de X X X X.</li>
+			<li>Em botões com tamanho superior a X (tamanho), o ícone deve ter X, com espaçamento de X X X X.</li>
+			</ul>
+            <div class="exemplo">
+            
+              <div class="row text-center mt-4 mb-4">
+                                    <a href="#" class="mb-2 mx-auto btn btn-secondary"><i class="fas fa-plus"></i> Criar Grupo</a>
+                                    </div>
+            
+                
+            </div>
+             <div class="codigo">
+				&lt;div class="row text-center"&gt;<br>
+                 &lt;a href="#" class="mb-2 mx-auto btn btn-secondary"&gt;&lt;i class="fas fa-plus"&gt;&lt;/i&gt; Criar Grupo&lt;/a&gt;<br>
+                  &lt;/div&gt;
+				</div>
+            
+            <!---------------------------------------------------------------------------->
+		 <div class="exemplo mt-4">
+            
+              <div class="row text-center  ml-5 mt-4 mb-4">
+                                  <div class="row ml-5 pl-5 pb- 2"> 
+                                <button class="btn btn-secondary dropdown-toggle btn-light ml-4" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                                    <i class="fas fa-server"></i> Sistemas
+                                </button>
+
+                                <div class="collapse" id="collapse1">
+                                    <div class="card card-body border-0 ">
+                                        <div class="row">
+                                            <a class="dropdown-item" href="#">Meus sistemas</a>
+                                            <a class="dropdown-item" href="#">Buscar sistema</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                  </div> </div>
+            
+                
+            </div>
+	<div class="codigo1">
+				   &lt;div class="row pb-2"&gt;<br>
+      &lt;button class="btn btn-secondary dropdown-toggle btn-light" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1"&gt;
+       &lt;i class="fas fa-server"&gt;&lt;/i&gt;Sistemas&lt;/button&gt;<br>
+		&lt;div class="collapse p-0 col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" id="collapse1"&gt;
+          &lt;div class="card card-body border-0"&gt;
+             &lt;div class="row"&gt;
+              &lt;a class="dropdown-item" href="#"&gt;Meus sistemas&lt;/a&gt;<br>
+               &lt;a class="dropdown-item" href="#"&gt;Buscar sistema&lt;/a&gt;
+               &lt;/div&gt; 
+			&lt;/div&gt;
+            &lt;/div&gt;
+       &lt;/div&gt;
+				</div>
+            <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+          
+            <h3 class="mt-5 font-weight-normal">Botões com ícones</h3>
+		<div class="exemplo">
+ <form class="form-inline ml-5 pl-5 mt-4 mb-4">
+
+                                        <input class="form-control mr-1" type="search" id="inputGroup-sizing-lg btn-block" placeholder="Busca servidor">
+
+                                        <button data-toggle="modal" data-target="#servidorFulano" class="btn btn-outline-dark my-2 my-sm-0" type="button"><i class="fas fa-search"></i></button>
+            </form>	
+     </div>
+			<!---------------------------------------------- BOX FULL---------------------------------->
+            <div class="codigo">
+				   &lt;button class="btn btn-outline-dark my-2 my-sm-0" type="submit"&gt;<br>
+					   &lt;i class="fas fa-search"&gt; &lt;/i&gt;<br>
+				 &lt;/button&gt;<br>
+				</div>
+		
+            
+			<!------------------------------------------------------------------------------------------------>	
+	<h3 class="font-weight-normal mt-5">Botões em componentes</h3>
+            <h5 class="mt-4">Cards</h5>
+            <p>Cards podem ser usados de diversas formas, com conteúdos e componentes variados.</p>
+            <p class="font-weight"> Botões ou grupos de botões, quando adicionados aos cards, devem seguir as seguintes diretrizes: </p>
+            <ul class="">
+		<li class="">Tamanho do botão:</li>
+			<ul class="regras">
+			<li>Em cards com tamanho inferior a X, o botão deve ter X. (considerar o uso de botões em cards muito pequenos - UX)</li>
+			<li>Em cards com até X (tamanho), o botão deve ter X.</li>
+			<li>Em cards com tamanho maior que X, o botão deve ter X.</li>
+			</ul>
+		<li class="">Margens e padding</li>
+		<ul class="regras">
+		<li>Em cards de até X (tamanho), as margens do botão devem ser: X X X X.</li>
+		<li>Em cards com tamanho superior a X (tamanho), as margens do botão devem ser: X X X X.</li>
+		</ul>
+		<li>Alinhamento do botão</li>
+		<ul class="regras">
+		<li>Em cards de até X (tamanho), o alinhamento do botão deve ser no centro.</li>
+		<li>Em cards com tamanho superior a X (tamanho), o alinhamento do botão dever ser à esquerda.</li>
+		</ul>
+            <li>Alinhamento do texto</li>
+		<ul class="regras">
+		<li>Textos e títulos devem ser sempre alinhados ao centro.</li>
+		</ul>
+            </ul>
+		<div class="exemplo">
+            <div class="col-8 mx-auto my-3">
+                                        <div class="card">
+                                            <h5 class="card-header">Servidores</h5>
+                                            <div class="card-body">
+                                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+
+                                                    <a href="#" class="mb-2 btn btn-outline-secondary btn-block">Gerenciar Papeis</a>
+                                                    <a href="responsabilidade.html" class="mb-2 btn btn-outline-secondary btn-block">Minhas reponsabilidades</a>
+                                                </div>
+                                            </div>
+                </div></div>
+            
+            
+            </div>
+	
+		
+				<div class="codigo mb-3">
+				     &lt;a href="#" class="mb-2 btn btn-outline-secondary btn-block"&gt;Gerenciar Papeis&lt;/a&gt;<br>
+            &lt;a href="responsabilidade.html" class="mb-2 btn btn-outline-secondary btn-block"&gt;Minhas reponsabilidades&lt;/a&gt;
+				</div>
+				
+		
+	
+	<h5 class="mt-4">Formulários</h5>
+	<p>Em formulários, podemos usar botões ou grupos de botões de diversas maneiras. Podem acompanhar alguma ação específica (como no <i>input</i>) ou podem funcionar como navegação (como o grupo de botões e o botão <i>criar grupo</i>).</p>
+				
+	<h6 class="">1.Grupos de botões em formulários</h6>
+		
+	<div class="exemplo">
+            <div class="row ">
+                        <ul class="nav nav-tabs pl-4 my-5">
+
+                            <li class="nav-item">
+                                <a class="nav-link btn-outline-secondary border active" href="#Grupo">Grupos</a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn-outline-dark border" href="#Papel">Papeis</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn-outline-dark border" href="#Permissoes">Permissões</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn-outline-dark border" href="#Responhsabilidades">Responhsabilidades</a>
+                            </li>
+
+                        </ul>
+
+
+                    </div>
+            </div>
+				
+	<div class="codigo1 mb-3">
+		   &lt;div class="row"&gt;
+             &lt;ul class="nav nav-tabs"&gt;<br>
+				&lt;li class="nav-item"&gt;
+                  &lt;a class="nav-link btn-outline-secondary border active" href="#Grupo"&gt;Grupos&lt;/a&gt;
+                            &lt;/li&gt;
+                            &lt;li class="nav-item"&gt;
+                                &lt;a class="nav-link btn-outline-dark border" href="#Papel"&gt;Papeis&lt;/a&gt;
+                            &lt;/li&gt;
+                            &lt;li class="nav-item"&gt;
+                                &lt;a class="nav-link btn-outline-dark border" href="#Permissoes"&gt;Permissões&lt;/a&gt;
+                            &lt;/li&gt;<br>
+                            &lt;li class="nav-item"&gt;
+                                &lt;a class="nav-link btn-outline-dark border" href="#Responhsabilidades"&gt;Responhsabilidades&lt;/a&gt;<br>
+                            &lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/div&gt;
+	</div>
+					
+	</div>
+        </div>
+	
+
+    <!-- rodapé -->
+    <footer class="font-small rodape-ajusta fixed mt-0 pt-0">
+        <!-- rodapé -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 bg-dark text-white pt-3 mx-auto">
+            <div class="container">
+                <div class="col-xs-12 col-sm-12 col-md-10 col-md-10 col-lg-10 mx-auto">
+                    <div class="row">
+
+                        <div class="col-xs-12 col-sm-12 col-md-10 col-md-10 col-lg-10 pt-3 mx-auto">
+                            <div class="footer-info text-black ">
+                                <span class="footer-text">© 2015 <span class="year">- 2019</span> |</span><span class="footer-text footer-text-name"> Acesso Cidadão</span>
+                                <span> | </span> Desenvolvido pelo <a class="text-white" href="http://www.prodest.es.gov.br/" target="_blank" title="Acessar o portal do Prodest">PRODEST</a><span> | </span>
+                                <br>
+                                <span class="footer-text"><a class="text-white" target="_blank" title="Acessar o portal do Governo" href="http://www.es.gov.br/">Governo do Estado do Espírito Santo</a></span>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 mx-auto">
+                            <div class="logo-governo text-right">
+                                <img width="170" src="https://cdn.es.gov.br/images/logo/governo/brasao/right-white/Brasao_Governo_240.png" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+
+
+
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body></html>
